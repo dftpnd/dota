@@ -1,0 +1,103 @@
+.invoker {
+    text-align: center;
+
+    width: 150px;
+    height: 300px;
+    margin: 0 auto;
+
+}
+
+.reagents {
+    display: flex;
+    justify-content: center;
+}
+
+.reagent {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reagent__q {
+    background-color: skyblue;
+}
+
+.reagent__w {
+    background-color: yellow;
+}
+
+.reagent__e {
+    background-color: red;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.skill {
+    width: 50px;
+    height: 50px;
+    color: transparent;
+    background-size: 100%;
+
+    border: none;
+    outline: none;
+
+}
+
+.skill:not(:last-child) {
+    margin-right: 10px;
+}
+
+.skill__quas {
+    background-image: url(/img/invoker/quas.png);
+}
+
+.skill__wex {
+    background-image: url(/img/invoker/wex.png);
+}
+
+.skill__exort {
+    background-image: url(/img/invoker/exort.png);
+}
+
+.skill__invoke {
+    background-image: url(/img/invoker/invoke.png);
+}
+
+.skill.clicked {
+    transform: scale(1.1);;
+}
+
+.invoke-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.invoke-list img:not(:last-child) {
+    transform: scale(.5);
+}
+
+.helper__hilfe {
+    animation: showHilfe forwards;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    opacity: 0;
+}
+
+@keyframes showHilfe {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

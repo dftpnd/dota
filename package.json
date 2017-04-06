@@ -1,0 +1,22 @@
+{
+  "name": "dota",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicksp/redux-webpack-es6-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicksp/redux-webpack-es6-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nicksp/redux-webpack-es6-boilerplate#readme",
+  "devDependencies": {
+    "express": "~4.15.2"
+  }
+}
